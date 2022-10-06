@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+.main-box-form,.main-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(20, 67, 220, 0.456);
+}
+
+.main-box-form{
+    height: 250vh;
+}
+.main-box{
+    height: 100vh;
+}
+
+h2 {
+    color: rgb(26, 26, 27);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.rectangle-box {
+    width: 500px;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border: 0.1rem solid #fff;
+    border-radius: 0.2rem;
+    background-color: rgba(247, 245, 245, 0.248);
+    padding: 0rem 3rem;
+}
+
+.rectangle-box input,
+textarea,
+select {
+    width: 400px;
+    height: 35px;
+    padding: 10px 20px;
+    border-radius: 0.1rem;
+    border: 0px;
+}
+
+.rectangle-box label {
+    font-size: 1rem;
+    color: rgb(9, 1, 56);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0.3rem;
+}
+
+.rectangle-box input::placeholder,
+textarea::placeholder,
+option,
+select,
+#dob {
+    color: rgba(20, 2, 2, 0.707);
+    font-size: 0.8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.options input {
+    width: 15px;
+    height: 15px;
+}
+
+.data {
+    width: 90vw;
+    height: auto;
+    background-color: cornflowerblue;
+}
+
+table {
+    width:100%;
+    table-layout: auto;
+    border-collapse: collapse;
+    
+}
+
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    padding: 0.3rem;
+    font-size: 15px;
+  
+}
+
+#rateus {
+    padding: 0rem;
+}
+
+#submit {
+    background-color: rgba(63, 1, 120, 0.816);
+    color: white;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1rem 0rem;
+    height: 3rem;
+}
+
